@@ -72,12 +72,7 @@ DepthSimulator.prototype.cloneGame = function(obj){
 function print2DArray(stateObj){
 	var board = stateObj.grid.cells;
 	for(var i = 0; i < 4; i++){
-
-
 		console.log(board[i][0], board[i][1], board[i][2], board[i][3]);
-/*		console.log(board[i][1]);
-		console.log(board[i][2]);
-		console.log(board[i][3]);*/
 	}
 	console.log('-------------')
 };
